@@ -95,9 +95,6 @@ dependencies:
   svelte-fa:
     specifier: ^4.0.2
     version: 4.0.2(svelte@4.2.12)
-  svelte-link-preview:
-    specifier: ^0.3.3
-    version: 0.3.3
   svelte-qrcode:
     specifier: ^1.0.0
     version: 1.0.0
@@ -3280,10 +3277,6 @@ packages:
       svelte: ^3.19.0 || ^4.0.0
     dependencies:
       svelte: 4.2.12
-    dev: false
-
-  /svelte-link-preview@0.3.3:
-    resolution: {integrity: sha512-QF6w6AsYO25UxNJOwgyVXbwY7fdx0B4FcZEeauqODlf2SlEuzrYI88UeSQ6Spq2Qf+4OCzb+YKXmNd4nCHwifQ==}
     dev: false
 
   /svelte-meta-tags@3.1.1(svelte@4.2.12)(typescript@5.4.3):
