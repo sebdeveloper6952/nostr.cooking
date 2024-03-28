@@ -5,6 +5,7 @@
   import { nip19 } from 'nostr-tools';
   import { goto } from '$app/navigation';
   import Recipe from '../../../components/Recipe/Recipe.svelte';
+  import { MetaTags } from 'svelte-meta-tags';
 
   let event: NDKEvent;
   let naddr: string = '';
@@ -70,5 +71,7 @@
 </svelte:head>
 
 {#if event}
+  <MetaTags title={event.tags.find((e) => e[0] == 'title')?.[1]} />
+
   <Recipe {event} />
 {/if}
